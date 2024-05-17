@@ -164,7 +164,7 @@ public function getBookingById($booking_id) {
 
   // Payment operations
   public function insertPayment($booking_id, $amount) {
-    $sql = "INSERT INTO payments (booking_id, amount) VALUES (?, ?)";
+    $sql = "INSERT INTO payments (  , amount) VALUES (?, ?)";
     $stmt = $this->pdo->prepare($sql);
     $stmt->execute([$booking_id, $amount]);
 }
