@@ -1,4 +1,4 @@
-<?php
+<!-- <?php
 
 // include ("student.php");
 include ("db.php");
@@ -108,4 +108,4 @@ if (isset($_REQUEST["btn_update_record"])) {
         }
     </script>
 </body>
-</html>
+</html> -->
